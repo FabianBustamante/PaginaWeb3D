@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Impresiones 3D{% endblock %}</title>
+    <title>Impresiones 3D</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
     <header>
-        <h1>{% block header %}Impresiones 3D{% endblock %}</h1>
+        <h1>Impresiones 3D</h1>
         <nav>
             <a href="{{ url_for('index') }}">Inicio</a>
             <a href="{{ url_for('catalogo') }}">Catálogo</a>
@@ -19,7 +19,8 @@
     </header>
 
     <main>
-        {% block content %}{% endblock %}
+        <h2>Página específica aquí</h2>
+        <p>Contenido específico para cada página.</p>
     </main>
 
     <footer>
